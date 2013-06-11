@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @author.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @author.email %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @author.password %>
+</p>
+
+<p>
+  <b>Password confirmation:</b>
+  <%= @author.password_confirmation %>
+</p>
+
+<p>
+  <b>Password digest:</b>
+  <%= @author.password_digest %>
+</p>
+
+<p>
+  <b>Institution:</b>
+  <%= @author.institution %>
+</p>
+
+
+<%= link_to 'Edit', edit_author_path(@author) %> |
+<%= link_to 'Back', authors_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tile: MyString
+  body: MyText
+  author_id: 1
+
+two:
+  tile: MyString
+  body: MyText
+  author_id: 1
